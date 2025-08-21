@@ -1,5 +1,5 @@
 {
-  "name": "web3-wallet",
+  "name": "wallet",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +9,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.18"
+    "@heroicons/vue": "^2.2.0",
+    "@scure/bip39": "^1.6.0",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.5.0",
+    "vue": "^3.5.19",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "@types/node": "^24.3.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.7.0",
+    "daisyui": "^5.0.50",
+    "tailwindcss": "^4.1.12",
     "typescript": "~5.8.3",
     "vite": "^7.1.2",
     "vue-tsc": "^3.0.5"
